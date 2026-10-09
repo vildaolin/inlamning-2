@@ -1,0 +1,96 @@
+
+body {
+    background-color: #f7efdc;
+    font-family: Serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:#690404;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1::first-letter {
+    font-size: 3em;
+    color: #8c0606;
+}
+
+nav {
+    background-color:#f04d4d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    color: #f7efdc; 
+    font-family: cursive;
+    display: inline-block;
+    transition: all .5s;
+    padding-left: 0;
+}
+
+nav a:hover {
+    color: #690404;
+    padding-left: 10px;
+    transform: scale(1.2);
+}
+
+
+h2 {
+    color: #690404;
+}
+
+p {
+    color:#8c0606
+}
+.sectiontext {
+    font-family:cursive;
+}
+
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+#kontakt {
+    background-image: url("images/GulaHjärtan.jpeg");
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+section {
+    border: 2px solid #690404;
+    padding: 20px;  
+}
+
+@media (max-width: 700px) {
+   main {
+     grid-template-columns: 1fr;
+     font-size: 20px;
+     padding : 20px;
+   }
+}
+
+footer {
+    padding: 30px;
+    color: #690404;
+}
+   
